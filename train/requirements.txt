@@ -2,7 +2,7 @@ accelerate
 datasets
 torchmetrics
 evaluate
-transformers>=4.28.0
+transformers>=4.53.0
 wandb
 pip
 peft
@@ -13,3 +13,4 @@ jsonlines
 nomic
 scikit-learn
 matplotlib
+torch>=2.8.0 # not directly required, pinned by Snyk to avoid a vulnerability
