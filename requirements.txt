@@ -16,3 +16,4 @@ python-multipart
 python-socketio
 python-socketio[client]
 python-socketio[asyncio_client]
+transformers>=5.0.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
